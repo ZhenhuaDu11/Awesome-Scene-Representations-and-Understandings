@@ -35,6 +35,8 @@ Reconstruct 3D scene with accurate semantics but without accurate surface repres
 - **NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes**, Suhani Vora et al, TMLR 2022 | [arXiv](https://arxiv.org/pdf/2111.13260) | [project](https://nesf3d.github.io/) | [code](https://github.com/google-research/jax3d/tree/main/jax3d/projects/nesf)
 - **Semantic Ray: Learning a Generalizable Semantic Field with Cross-Reprojection Attention**, Fangfu Liu et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2303.13014) | [project](https://liuff19.github.io/S-Ray/) | [code](https://github.com/liuff19/Semantic-Ray)
 - 🔥**GNeSF: Generalizable Neural Semantic Fields**, Hanlin Chen et al, NIPS2023 | [code](https://github.com/HLinChen/GNeSF)
+- **GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding**, Hao Li et al, CVPR2024 (<font color="#e36c09">Highlight</font>) | [arXiv](https://arxiv.org/abs/2311.11863) | [project](https://lifuguan.github.io/gpnerf-pages/) | [code](https://github.com/lifuguan/GP-NeRF)
+
 ## Semantic Reconstrucion
 Reconstruct 3D scene with accurate semantics and <span style="background:#fff88f">accurate</span> surface. Most of work below are also able to render 2D semantic images:
 - 🔥**Neural 3D Scene Reconstruction with the Manhattan-world Assumption**, Haoyu Guo et al, CVPR2022 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2205.02836) | [project](https://zju3dv.github.io/manhattan_sdf/) | [code](https://github.com/zju3dv/manhattan_sdf)
