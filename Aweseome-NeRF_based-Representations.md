@@ -3,20 +3,22 @@ A curated list of papers and open-source resources focused on NeRF, inspired by 
 ## Table of Content
 - [Table of Content](#table-of-content)
 - [❓️What's NeRF](#️whats-nerf)
-  - [NeRF-related Survey](#nerf-related-survey)
+  - [NeRF-Related Survey](#nerf-related-survey)
   - [To Be Solved](#to-be-solved)
 - [Higher Quality NVS](#higher-quality-nvs)
 - [Faster Inference](#faster-inference)
 - [Faster Training](#faster-training)
+- [Generalizable Reconstruction](#generalizable-reconstruction)
 - [🤩Surface Reconstrucion](#surface-reconstrucion)
   - [Object](#object)
   - [Indoor Scene](#indoor-scene)
   - [Outdoor Scene](#outdoor-scene)
 - [Pose-free Reconstruction](#pose-free-reconstruction)
 - [Large Scene Reconstruction](#large-scene-reconstruction)
-- [🤩Sparse View Reconstruction](#sparse-view-reconstruction)
+- [🤩Sparse-View Reconstruction](#sparse-view-reconstruction)
 - [🤩NeRF-based SLAM](#nerf-based-slam)
 - [🤩Scene Understanding](#scene-understanding)
+
 
 
 ## ❓️What's NeRF
@@ -24,7 +26,7 @@ A curated list of papers and open-source resources focused on NeRF, inspired by 
 
 ![600](Docs/Problem-of-NeRF.png)
 
-### NeRF-related Survey
+### NeRF-Related Survey
 - **Neural Volume Rendering: NeRF And Beyond**, Dellaert and Yen-Chen, arXiv2021 | [arXiv](https://arxiv.org/abs/2101.05204) | [blog](https://dellaert.github.io/NeRF/)
 - 🔥**NeRF: Neural Radiance Field in 3D Vision, A Comprehensive Review**, Kyle Gao et al., TPAMI2022 | [arXiv](https://arxiv.org/abs/2210.00379)
 
@@ -37,9 +39,9 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 ## Higher Quality NVS
 - **Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields**, Jonathan T.Barron et al., ICCV2021 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2103.13415) | [project](https://jonbarron.info/mipnerf/) | [code](https://github.com/google/mipnerf)
 - **NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo**，Yi Wei et al, ICCV2021 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2109.01129) | [project](https://weiyithu.github.io/NerfingMVS/) | [code](https://github.com/weiyithu/NerfingMVS)
-- **Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields**, Jonathan T.Barron et al., CVPR2022 (<font color="#e36c09">Oral)</font> | [arXiv](https://arxiv.org/abs/2111.12077) | [project](https://jonbarron.info/mipnerf360/) | [code](https://github.com/google-research/multinerf)
+- 🔥**Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields**, Jonathan T.Barron et al., CVPR2022 (<font color="#e36c09">Oral)</font> | [arXiv](https://arxiv.org/abs/2111.12077) | [project](https://jonbarron.info/mipnerf360/) | [code](https://github.com/google-research/multinerf)
 - **Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields**, Dor Verbin et al., CVPR 2022 (<font color="#e36c09">Oral and Best Student Paper Honorable Mention)</font> | [arXiv](https://arxiv.org/abs/2112.03907) | [Project](https://dorverbin.github.io/refnerf/) | [code](https://github.com/google-research/multinerf)
-- 🔥**Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields**, Jonathan T. Barron et al, ICCV2023 (<font color="#e36c09">Oral and Best Paper Finalist</font>) |[arXiv](https://arxiv.org/abs/2304.06706) | [project](https://jonbarron.info/zipnerf/) | [unofficial_impl](https://github.com/SuLvXiangXin/zipnerf-pytorch)
+- 🔥**Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields**, Jonathan T. Barron et al, ICCV2023 (<font color="#e36c09">Oral and Best Paper Finalist</font>) | [arXiv](https://arxiv.org/abs/2304.06706) | [project](https://jonbarron.info/zipnerf/) | [unofficial_impl](https://github.com/SuLvXiangXin/zipnerf-pytorch)
 
 ## Faster Inference
 - **Neural Sparse Voxel Fields**, Liu et al., NeurIPS2020 (<font color="#e36c09">Spotlight)</font> | [arXiv](https://arxiv.org/abs/2007.11571)| [project](https://github.com/facebookresearch/NSVF) | [code](https://github.com/facebookresearch/NSVF)
@@ -52,6 +54,17 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 - 🔥**Plenoxels: Radiance Fields without Neural Networks**, Alex Yu et al, CVPR2022 (Oral) | [arXiv](https://arxiv.org/abs/2112.05131) | [project](https://alexyu.net/plenoxels/) | [code](https://github.com/sxyu/svox2)
 - 🔥**Instant Neural Graphics Primitives with a Multiresolution Hash Encoding**, Thomas Müller et al, SIGGRAPH2022 (<font color="#e36c09">Best Paper Award</font>) | [arXiv](https://arxiv.org/abs/2112.05131) | [project](https://nvlabs.github.io/instant-ngp/) | [code](https://github.com/NVlabs/instant-ngp)
 - **TensoRF: Tensorial Radiance Fields**, Chen et al., ECCV 2022 (<font color="#e36c09">Most influential ECCV'22 papers</font>) | [arXiv](https://arxiv.org/abs/2203.09517) | [project](https://apchenstu.github.io/TensoRF/) | [code](https://github.com/apchenstu/TensoRF)
+
+## Generalizable Reconstruction
+- **PixelNeRF: Neural Radiance Fields from One or Few Images**, Alex Yu et al, CVPR2021 | [arXiv](https://arxiv.org/abs/2012.02190) | [project](https://alexyu.net/pixelnerf/) | [code](https://github.com/sxyu/pixel-nerf) 
+- **IBRNet: Learning Multi-View Image-Based Rendering**, Qianqian Wang et al, CVPR2021 | [arXiv](https://arxiv.org/abs/2102.13090) | [project](https://ibrnet.github.io/) | [code](https://github.com/googleinterns/IBRNet)
+- 🔥**MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo**, Anpei Chen et al, ICCV2021 | [arXiv](https://arxiv.org/abs/2103.15595) | [project](https://apchenstu.github.io/mvsnerf/) | [code](https://github.com/apchenstu/mvsnerf)
+- **Neural Rays for Occlusion-Aware Image-Based Rendering**, Yuan Liu et al, CVPR2022 | [arXiv](https://arxiv.org/abs/2107.13421) | [project](https://liuyuan-pal.github.io/NeuRay/) | [code](https://github.com/liuyuan-pal/NeuRay)
+- **NeRFusion: Fusing Radiance Fields for Large-Scale Scene Reconstruction**, Xiaoshuai Zhang et al, CVPR2022 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2203.11283) | [project](https://jetd1.github.io/NeRFusion-Web/)
+- 🔥**Point-NeRF: Point-based Neural Radiance Fields**, Qiangeng Xu et al, CVPR2022 (<font color="#e36c09">oral</font>) | [arXiv](https://arxiv.org/pdf/2201.08845.pdf) | [project](https://xharlie.github.io/projects/project_sites/pointnerf/index.html) | [code](https://github.com/Xharlie/pointnerf)
+- 🔥**SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes**, Yiming Gao et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2304.08971) | [project](https://gymat.github.io/SurfelNeRF-web/) | [ code](https://github.com/Gymat/SurfelNeRF/tree/unofficial)
+- **FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization**, Jiawei Yang et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2303.07418) | [project](https://jiawei-yang.github.io/FreeNeRF/) | [code](https://github.com/Jiawei-Yang/FreeNeRF)
+- 🔥**ReconFusion: 3D Reconstruction with Diffusion Priors**, Rundi Wu et al, arXiv 2023 | [arXiv](https://arxiv.org/abs/2312.02981) | [project](https://reconfusion.github.io/)
 
 ## 🤩Surface Reconstrucion
 ### Object
@@ -89,16 +102,11 @@ NeRF-based:
 - **BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering**, Yuanbo Xiangli et al, ECCV2022 | [arXiv](https://arxiv.org/abs/2112.05504) | [project](https://city-super.github.io/citynerf/) | [code](https://github.com/city-super/BungeeNeRF)
 - 🔥**F2-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories**, Peng Wang et al, CVPR2023 (<font color="#e36c09">Highlight</font>) | [arXiv](https://arxiv.org/abs/2303.15951) | [project](https://totoro97.github.io/projects/f2-nerf/) | [code](https://github.com/totoro97/f2-nerf) 
 
-## 🤩Sparse View Reconstruction
-- **PixelNeRF: Neural Radiance Fields from One or Few Images**, Alex Yu et al, CVPR2021 | [arXiv](https://arxiv.org/abs/2012.02190) | [project](https://alexyu.net/pixelnerf/) | [code](https://github.com/sxyu/pixel-nerf) 
-- **IBRNet: Learning Multi-View Image-Based Rendering**, Qianqian Wang et al, CVPR2021 | [arXiv](https://arxiv.org/abs/2102.13090) | [project](https://ibrnet.github.io/) | [code](https://github.com/googleinterns/IBRNet)
-- 🔥**MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo**, Anpei Chen et al, ICCV2021 | [arXiv](https://arxiv.org/abs/2103.15595) | [project](https://apchenstu.github.io/mvsnerf/) | [code](https://github.com/apchenstu/mvsnerf)
-- **Neural Rays for Occlusion-Aware Image-Based Rendering**, Yuan Liu et al, CVPR2022 | [arXiv](https://arxiv.org/abs/2107.13421) | [project](https://liuyuan-pal.github.io/NeuRay/) | [code](https://github.com/liuyuan-pal/NeuRay)
+## 🤩Sparse-View Reconstruction
+Some works in Generalizable Reconstruction can also be used for Sparse-View Reconstruction
 - **Depth-supervised NeRF: Fewer Views and Faster Training for Free**, Kangle Deng et al, CVPR2022 | [arXiv](https://arxiv.org/abs/2107.02791) | [project](https://www.cs.cmu.edu/~dsnerf/) | [code](https://github.com/dunbar12138/DSNeRF)
 - 🔥**Dense Depth Priors for Neural Radiance Fields from Sparse Input Views**, Barbara Roessle et al, CVPR2022 | [arXiv](https://arxiv.org/abs/2112.03288) | [project](https://barbararoessle.github.io/dense_depth_priors_nerf/) | [code](https://github.com/barbararoessle/dense_depth_priors_nerf)
 - **RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs**, Michael Niemeyer et al, CVPRP2022 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2112.00724) | [project](https://m-niemeyer.github.io/regnerf/index.html) | [code](https://github.com/google-research/google-research/tree/master/regnerf)
-- **FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization**, Jiawei Yang et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2303.07418) | [project](https://jiawei-yang.github.io/FreeNeRF/) | [code](https://github.com/Jiawei-Yang/FreeNeRF)
-- 🔥**ReconFusion: 3D Reconstruction with Diffusion Priors**, Rundi Wu et al, arXiv 2023 | [arXiv](https://arxiv.org/abs/2312.02981) | [project](https://reconfusion.github.io/)
 
 ## 🤩NeRF-based SLAM
 Refer to [awesome-Implicit-NeRF-SLAM](https://github.com/DoongLi/awesome-Implicit-NeRF-SLAM), semnatic-SLAMs are listed in [Awesome-3D-Scene-Understanding](Awesome-3D-Scene-Understanding.md)
