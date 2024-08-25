@@ -1,1 +1,0 @@
-A curated list of papers and open-source resources focused on 3DGS, inspired by [awesome-3D-gaussian-splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting).

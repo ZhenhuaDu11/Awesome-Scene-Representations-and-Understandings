@@ -11,11 +11,12 @@ A curated list of papers and open-source resources focused on 3D Scene Understan
 - [Scene Decomposition](#scene-decomposition)
   - [Indoor Scene](#indoor-scene)
   - [Outdoor Scene](#outdoor-scene)
-- [3D Segmentation Using SAM](#3d-segmentation-using-sam)
+- [3D Segmentation](#3d-segmentation)
   - [Object Segmentation](#object-segmentation)
   - [Instance Segmentation](#instance-segmentation)
   - [Hierarchical Segmentation](#hierarchical-segmentation)
 - [Multi-Model](#multi-model)
+
 
 
 ## Semantic NVS
@@ -41,6 +42,7 @@ Reconstruct 3D scene with accurate semantics but without accurate surface repres
 Reconstruct 3D scene with accurate semantics and <span style="background:#fff88f">accurate</span> surface. Most of work below are also able to render 2D semantic images:
 - 🔥**Neural 3D Scene Reconstruction with the Manhattan-world Assumption**, Haoyu Guo et al, CVPR2022 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2205.02836) | [project](https://zju3dv.github.io/manhattan_sdf/) | [code](https://github.com/zju3dv/manhattan_sdf)
 - **Fast Monocular Scene Reconstruction with Global-Sparse Local-Dense Grids**, Wei Dong et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2305.13220) | [project](https://dongwei.info/publication/ash-mono/) | [code](https://github.com/theNded/torch-ash) 
+- 🔥**PanopticRecon: Leverage Open-vocabulary Instance Segmentation for Zero-shot Panoptic Reconstruction**, Xuan Yu et al, IROS2024 | [arXiv](https://arxiv.org/abs/2407.01349)
 
 ## Semantic SLAM
 - **iLabel: Revealing Objects in Neural Fields**, Shauifeng Zhi et al, RA-L2022 | [arXiv](https://arxiv.org/abs/2111.14637)
@@ -64,7 +66,7 @@ Reconstrucion 3D scenes using a <span style="background:#fff88f">object-composit
 ### Outdoor Scene
 - **Panoptic Neural Fields: A Semantic Object-Aware Neural Scene Representation**, Abhijit Kundu et al, CVPR2022 | [arXiv](https://arxiv.org/abs/2205.04334.pdf) | [project](https://abhijitkundu.info/projects/pnf/)
 
-## 3D Segmentation Using SAM
+## 3D Segmentation
 ### Object Segmentation
 - **NeRF-SOS: Any-View Self-supervised Object Segmentation on Complex Scenes**, Ziwen Fan et al, | [arXiv](https://arxiv.org/abs/2209.08776) | [project](https://zhiwenfan.github.io/NeRF-SOS/) | [code](https://github.com/VITA-Group/NeRF-SOS)
 - 🔥**Segment Anything in 3D with NeRFs**, Jiazhong Cen et al, NIPS2023 | [arXiv](https://arxiv.org/abs/2304.12308) | [project](https://jumpat.github.io/SA3D/) | [code](https://github.com/Jumpat/SegmentAnythingin3D)
@@ -83,9 +85,11 @@ Reconstrucion 3D scenes using a <span style="background:#fff88f">object-composit
 ## Multi-Model
 Recontruct 3D <span style="background:#fff88f">CLIP/DINO feature fields</span> of scene. Most of thes works are able to achieve 3D open-vocabulary segmentation.
 - **Neural Feature Fusion Fields: 3D Distillation of Self-Supervised 2D Image Representations**, Vadim Tschernezki et al, 3DV2022(<font color="#e36c09">Oral</font>) | [arXiv](- [arXiv](https://arxiv.org/abs/2209.03494)) | [project](https://www.robots.ox.ac.uk/~vadim/n3f/) | [code](https://github.com/dichotomies/N3F)
-- **Decomposing NeRF for Editing via Feature Field Distillation**, Sosuke Kobayashi et al, NIPS2022 | [arXiv](https://arxiv.org/abs/2205.15585) | [project](https://pfnet-research.github.io/distilled-feature-fields/) | [code](https://github.com/pfnet-research/distilled-feature-fields)
+- 🔥**Decomposing NeRF for Editing via Feature Field Distillation**, Sosuke Kobayashi et al, NIPS2022 | [arXiv](https://arxiv.org/abs/2205.15585) | [project](https://pfnet-research.github.io/distilled-feature-fields/) | [code](https://github.com/pfnet-research/distilled-feature-fields)
+- 🔥**OpenScene: 3D Scene Understanding with Open Vocabularies**, Songyou Peng et al, CVPR 2023 | [arXiv](https://arxiv.org/abs/2211.15654) | [project](https://pengsongyou.github.io/openscene) | [code](https://github.com/pengsongyou/openscene)
 - 🔥**LERF: Language Embedded Radiance Fields**, J. stin Kerr et al, ICCV2023 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2303.09553) | [project](https://www.lerf.io/) | [code](https://github.com/kerrj/lerf)
 - **LangSplat: 3D Language Gaussian Splatting**, Minghan Qin et al, CVPR2024 (<font color="#e36c09">Highlight</font>) | [arXiv](https://arxiv.org/abs/2312.16084) | [project](https://langsplat.github.io/) | [code](https://github.com/minghanqin/LangSplat)
 - **N2F2: Hierarchical Scene Understanding with Nested Neural Feature Fields**, Yash Bhalgat, arXiv2024 | [arXiv](https://arxiv.org/abs/2403.10997)
 - **O2V-Mapping: Online Open-Vocabulary Mapping with Neural Implicit Representation**, Muer Tie, arXiv 2024 | [arXiv](https://arxiv.org/abs/2404.06836)
-
+- 🔥**Panoptic Vision-Language Feature Fields**, Haoran Chen et al, RA-L2024 | [arXiv](https://arxiv.org/abs/2309.05448) | [project](https://ethz-asl.github.io/pvlff/) | [code](https://github.com/ethz-asl/pvlff)
+- **Improving 2D Feature Representations by 3D-Aware Fine-Tuning**, Yuanwen Yue et al, ECCV2024 | [arXiv](https://arxiv.org/abs/2407.20229) | [project](https://ywyue.github.io/FiT3D/) | [code](https://github.com/ywyue/FiT3D)

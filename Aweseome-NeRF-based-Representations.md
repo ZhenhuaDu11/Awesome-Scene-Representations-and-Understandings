@@ -20,9 +20,8 @@ A curated list of papers and open-source resources focused on NeRF, inspired by 
 - [🤩Scene Understanding](#scene-understanding)
 
 
-
 ## ❓️What's NeRF
-- 🔥**NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**, Mildenhall et al., ECCV2020 (<font color="#e36c09">Oral and Best Paper Honorable Mention</font>)| [arXiv](https://arxiv.org/abs/2003.08934) | [project](https://www.matthewtancik.com/nerf) | [code](https://github.com/bmild/nerf) | [pytorch impl](https://github.com/yenchenlin/nerf-pytorch) | [notes](https://yconquesty.github.io/blog/ml/nerf/nerf_rendering.html#analysis)
+- 🔥**NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**, Mildenhall et al., ECCV2020 (<font color="#e36c09">Oral and Best Paper Honorable Mention</font>) | [arXiv](https://arxiv.org/abs/2003.08934) | [project](https://www.matthewtancik.com/nerf) | [code](https://github.com/bmild/nerf) | [pytorch impl](https://github.com/yenchenlin/nerf-pytorch) | [notes](https://yconquesty.github.io/blog/ml/nerf/nerf_rendering.html#analysis)
 
 ![600](Docs/Problem-of-NeRF.png)
 
@@ -31,7 +30,7 @@ A curated list of papers and open-source resources focused on NeRF, inspired by 
 - 🔥**NeRF: Neural Radiance Field in 3D Vision, A Comprehensive Review**, Kyle Gao et al., TPAMI2022 | [arXiv](https://arxiv.org/abs/2210.00379)
 
 ### To Be Solved
-Refer to NeRF Tutorial presented by Sida Peng in valse2024
+Refer to "NeRF Tutorial" presented by Sida Peng in Valse2024
 ![](Docs/Backbone-of-NeRF.png)
   
 Note that <span style="background:#fff88f">3DGS has solved the problem of slow inference and training, enbaling large-scale scene reconstruction while achieving better rendering quality.</span>
@@ -40,8 +39,10 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 - **Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields**, Jonathan T.Barron et al., ICCV2021 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2103.13415) | [project](https://jonbarron.info/mipnerf/) | [code](https://github.com/google/mipnerf)
 - **NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo**，Yi Wei et al, ICCV2021 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2109.01129) | [project](https://weiyithu.github.io/NerfingMVS/) | [code](https://github.com/weiyithu/NerfingMVS)
 - 🔥**Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields**, Jonathan T.Barron et al., CVPR2022 (<font color="#e36c09">Oral)</font> | [arXiv](https://arxiv.org/abs/2111.12077) | [project](https://jonbarron.info/mipnerf360/) | [code](https://github.com/google-research/multinerf)
-- **Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields**, Dor Verbin et al., CVPR 2022 (<font color="#e36c09">Oral and Best Student Paper Honorable Mention)</font> | [arXiv](https://arxiv.org/abs/2112.03907) | [Project](https://dorverbin.github.io/refnerf/) | [code](https://github.com/google-research/multinerf)
+- **Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields**, Dor Verbin et al., CVPR2022 (<font color="#e36c09">Oral and Best Student Paper Honorable Mention)</font> | [arXiv](https://arxiv.org/abs/2112.03907) | [project](https://dorverbin.github.io/refnerf/) | [code](https://github.com/google-research/multinerf)
+- **Tri-MipRF: Tri-Mip Representation for Efficient Anti-Aliasing Neural Radiance Fields**, Wenbo Hu et al, ICCV2023 (<font color="#e36c09">Oral and Benst Paper Finalist</font>) | [arXiv](https://arxiv.org/abs/2307.11335) | [project](https://wbhu.github.io/projects/Tri-MipRF/) | [code](https://github.com/wbhu/Tri-MipRF)
 - 🔥**Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields**, Jonathan T. Barron et al, ICCV2023 (<font color="#e36c09">Oral and Best Paper Finalist</font>) | [arXiv](https://arxiv.org/abs/2304.06706) | [project](https://jonbarron.info/zipnerf/) | [unofficial_impl](https://github.com/SuLvXiangXin/zipnerf-pytorch)
+- 🔥**Rip-NeRF: Anti-aliasing Radiance Fields with Ripmap-Encoded Platonic Solids**, Junchen Liu et al, SIGGRAPH2024 | [arXiv](https://arxiv.org/abs/2405.02386) | [project](https://junchenliu77.github.io/Rip-NeRF/) | [code](https://github.com/JunchenLiu77/Rip-NeRF)
 
 ## Faster Inference
 - **Neural Sparse Voxel Fields**, Liu et al., NeurIPS2020 (<font color="#e36c09">Spotlight)</font> | [arXiv](https://arxiv.org/abs/2007.11571)| [project](https://github.com/facebookresearch/NSVF) | [code](https://github.com/facebookresearch/NSVF)
@@ -81,10 +82,10 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 - 🔥**Neural 3D Scene Reconstruction with the Manhattan-world Assumption**, Haoyu Guo et al, CVPR2022 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2205.02836) | [project](https://zju3dv.github.io/manhattan_sdf/) | [code](https://github.com/zju3dv/manhattan_sdf)
 - 🔥**NeuRIS: Neural Reconstruction of Indoor Scenes Using Normal Priors**, Jiepeng Wang et al, ECCV2022 | [arXiv](https://arxiv.org/abs/2206.13597) | [project](https://jiepengwang.github.io/NeuRIS/) | [code](https://github.com/jiepengwang/NeuRIS)
 - 🔥**MonoSDF: Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction**, Zehao Yu et al, NIPS2022 | [arXiv](https://arxiv.org/pdf/2206.00665) | [project](https://niujinshuchong.github.io/monosdf/) | [code](https://github.com/autonomousvision/monosdf)
-- **DebSDF: Delving into the Details and Bias of Neural Indoor Scene Reconstruction**, Yuting Xiao et al, arXiv 2023 | [arXiv](https://arxiv.org/abs/2308.15536)
 - **Fast Monocular Scene Reconstruction with Global-Sparse Local-Dense Grids**, Wei Dong et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2305.13220) | [project](https://dongwei.info/publication/ash-mono/) | [code](https://github.com/theNded/torch-ash) 
 - 🔥**HelixSurf: A Robust and Efficient Neural Implicit Surface Learning of Indoor Scenes with Iterative Intertwined Regularization**, Zhihao Liang et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2302.14340) | [project](https://lzhnb.github.io/project-pages/helixsurf.html) | [code](https://github.com/Gorilla-Lab-SCUT/HelixSurf?tab=readme-ov-file) 
 - 🔥**Self-supervised Super-plane for Neural 3D Reconstruction**, Botao Ye et al, CVPR2023 | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Self-Supervised_Super-Plane_for_Neural_3D_Reconstruction_CVPR_2023_paper.pdf) | [code](https://github.com/botaoye/S3PRecon) 
+- **DebSDF: Delving into the Details and Bias of Neural Indoor Scene Reconstruction**, Yuting Xiao et al, TPAMI2024 | [arXiv](https://arxiv.org/abs/2308.15536) | [project](https://davidxu-jj.github.io/pubs/DebSDF/) | [code](https://github.com/DavidXu-JJ/DebSDF)
 
 ### Outdoor Scene
 NeRF-based:
