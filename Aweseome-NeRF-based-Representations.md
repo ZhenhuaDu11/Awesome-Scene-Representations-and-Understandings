@@ -52,9 +52,10 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 
 ## Faster Training
 - 🔥**NeurMiPs: Neural Mixture of Planar Experts for View Synthesis**, Zhihao Lin et al, CVPR2022 | [arXiv](https://arxiv.org/abs/2204.13696) | [project](https://zhihao-lin.github.io/neurmips/) | [code](https://github.com/zhihao-lin/neurmips)
-- 🔥**Plenoxels: Radiance Fields without Neural Networks**, Alex Yu et al, CVPR2022 (Oral) | [arXiv](https://arxiv.org/abs/2112.05131) | [project](https://alexyu.net/plenoxels/) | [code](https://github.com/sxyu/svox2)
-- 🔥**Instant Neural Graphics Primitives with a Multiresolution Hash Encoding**, Thomas Müller et al, SIGGRAPH2022 (<font color="#e36c09">Best Paper Award</font>) | [arXiv](https://arxiv.org/abs/2112.05131) | [project](https://nvlabs.github.io/instant-ngp/) | [code](https://github.com/NVlabs/instant-ngp)
+- 🔥**Plenoxels: Radiance Fields without Neural Networks**, Alex Yu et al, CVPR2022 (<font color="#de7802">Oral</font>) | [arXiv](https://arxiv.org/abs/2112.05131) | [project](https://alexyu.net/plenoxels/) | [code](https://github.com/sxyu/svox2)
+- 🔥**Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction**, Cheng Sun et al, CVPR2022 (<font color="#de7802">Oral</font>) | [arXiv](https://arxiv.org/abs/2111.11215) | [project](https://sunset1995.github.io/dvgo/) | [code](https://github.com/sunset1995/DirectVoxGO)
 - **TensoRF: Tensorial Radiance Fields**, Chen et al., ECCV 2022 (<font color="#e36c09">Most influential ECCV'22 papers</font>) | [arXiv](https://arxiv.org/abs/2203.09517) | [project](https://apchenstu.github.io/TensoRF/) | [code](https://github.com/apchenstu/TensoRF)
+- 🔥**Instant Neural Graphics Primitives with a Multiresolution Hash Encoding**, Thomas Müller et al, SIGGRAPH2022 (<font color="#e36c09">Best Paper Award</font>) | [arXiv](https://arxiv.org/abs/2112.05131) | [project](https://nvlabs.github.io/instant-ngp/) | [code](https://github.com/NVlabs/instant-ngp)
 
 ## Generalizable Reconstruction
 - **PixelNeRF: Neural Radiance Fields from One or Few Images**, Alex Yu et al, CVPR2021 | [arXiv](https://arxiv.org/abs/2012.02190) | [project](https://alexyu.net/pixelnerf/) | [code](https://github.com/sxyu/pixel-nerf) 
@@ -73,12 +74,17 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 - **Volume Rendering of Neural Implicit Surfaces**, Lior Yariv et al, NIPS2021 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2106.12052) | [project](https://lioryariv.github.io/volsdf/) | [code](https://github.com/lioryariv/volsdf)
 - 🔥**NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction**, Peng Wang et al, NIPS2021 (<font color="#e36c09">Spotlight</font>) | [arXiv](https://arxiv.org/abs/2106.10689) | [project](https://lingjie0206.github.io/papers/NeuS/) | [code](https://github.com/Totoro97/NeuS)
 - **Geo-Neus: Geometry-Consistent Neural Implicit Surfaces Learning for Multi-view Reconstruction**, Qiancheng Fu et al, NIPS2022| [arXiv](https://arxiv.org/abs/2205.15848) | [code](https://github.com/GhiXu/Geo-Neus) 
+- **Vox-Surf: Voxel-based Implicit Surface Representation**, Hai Li et al, TVCG2022 | [arXiv](https://arxiv.org/pdf/2208.10925) | [code](https://github.com/zju3dv/Vox-Surf)
+- **Voxurf: Voxel-based Efficient and Accurate Neural Surface Reconstruction**, Tong Wu et al, ICLR2023 (<font color="#de7802">Spotlight</font>) | [arXiv](https://arxiv.org/abs/2208.12697) | [code](https://github.com/wutong16/Voxurf)
+- **NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction**, Bowen Cai et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2303.02375) | [project](https://3d-front-future.github.io/neuda/) | [code](https://github.com/3D-FRONT-FUTURE/NeuDA)
 - 🔥**Towards Better Gradient Consistency for Neural Signed Distance Functions via Level Set Alignment**, Baorui Ma et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2305.11601) | [code](https://github.com/mabaorui/TowardsBetterGradient) 
 - **Towards Unbiased Volume Rendering of Neural Implicit Surfaces with Geometry Priors**, Yongqiang Zhang et al, CVPR2023 | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Towards_Unbiased_Volume_Rendering_of_Neural_Implicit_Surfaces_With_Geometry_CVPR_2023_paper.pdf)
 - **NeuS2: Fast Learning of Neural Implicit Surfaces for Multi-view Reconstruction**, Yiming Wang et al, ICCV2023 | [arXiv](https://arxiv.org/abs/2212.05231) | [project](https://vcai.mpi-inf.mpg.de/projects/NeuS2/) | [code](https://github.com/19reborn/NeuS2)
 - 🔥**Neuralangelo: High-Fidelity Neural Surface Reconstruction**, Zhaoshuo Li et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2306.03092) | [project](https://research.nvidia.com/labs/dir/neuralangelo/) | [code](https://github.com/nvlabs/neuralangelo)
 
 ### Indoor Scene
+- **GO-Surf: Neural Feature Grid Optimization for Fast, High-Fidelity RGB-D Surface Reconstruction**, Jingwen Wang et al, 3DV 2022 (<font color="#de7802">Oral</font>) | [arXiv](https://arxiv.org/abs/2206.14735) | [project](https://jingwenwang95.github.io/go_surf/) | [code](https://github.com/JingwenWang95/go-surf)
+- **Neural RGB-D Surface Reconstruction**, Dejan Azinović et al, CVPR 2022 | [arXiv](https://arxiv.org/abs/2104.04532) | [project](https://dazinovic.github.io/neural-rgbd-surface-reconstruction/) | [code](https://github.com/dazinovic/neural-rgbd-surface-reconstruction)
 - 🔥**Neural 3D Scene Reconstruction with the Manhattan-world Assumption**, Haoyu Guo et al, CVPR2022 (<font color="#e36c09">Oral</font>) | [arXiv](https://arxiv.org/abs/2205.02836) | [project](https://zju3dv.github.io/manhattan_sdf/) | [code](https://github.com/zju3dv/manhattan_sdf)
 - 🔥**NeuRIS: Neural Reconstruction of Indoor Scenes Using Normal Priors**, Jiepeng Wang et al, ECCV2022 | [arXiv](https://arxiv.org/abs/2206.13597) | [project](https://jiepengwang.github.io/NeuRIS/) | [code](https://github.com/jiepengwang/NeuRIS)
 - 🔥**MonoSDF: Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction**, Zehao Yu et al, NIPS2022 | [arXiv](https://arxiv.org/pdf/2206.00665) | [project](https://niujinshuchong.github.io/monosdf/) | [code](https://github.com/autonomousvision/monosdf)
@@ -86,6 +92,7 @@ Note that <span style="background:#fff88f">3DGS has solved the problem of slow i
 - 🔥**HelixSurf: A Robust and Efficient Neural Implicit Surface Learning of Indoor Scenes with Iterative Intertwined Regularization**, Zhihao Liang et al, CVPR2023 | [arXiv](https://arxiv.org/abs/2302.14340) | [project](https://lzhnb.github.io/project-pages/helixsurf.html) | [code](https://github.com/Gorilla-Lab-SCUT/HelixSurf?tab=readme-ov-file) 
 - 🔥**Self-supervised Super-plane for Neural 3D Reconstruction**, Botao Ye et al, CVPR2023 | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Self-Supervised_Super-Plane_for_Neural_3D_Reconstruction_CVPR_2023_paper.pdf) | [code](https://github.com/botaoye/S3PRecon) 
 - **DebSDF: Delving into the Details and Bias of Neural Indoor Scene Reconstruction**, Yuting Xiao et al, TPAMI2024 | [arXiv](https://arxiv.org/abs/2308.15536) | [project](https://davidxu-jj.github.io/pubs/DebSDF/) | [code](https://github.com/DavidXu-JJ/DebSDF)
+- 🔥**PhyRecon: Physically Plausible Neural Scene Reconstruction**, Junfeng Ni, arXiv2024 | [arXiv](https://arxiv.org/abs/2404.16666) | [project](https://phyrecon.github.io/) | [code](https://github.com/PhyRecon/PhyRecon)
 
 ### Outdoor Scene
 NeRF-based:

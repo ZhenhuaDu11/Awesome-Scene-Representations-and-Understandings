@@ -23,6 +23,7 @@ A curated list of papers and open-source resources focused on 3DGS, inspired by 
 - 🔥**Mip-Splatting: Alias-free 3D Gaussian Splatting**, Zehao Yu et al, CVPR2024 (<font color="#de7802">Best Student Paper</font>) | [arXiv](https://arxiv.org/abs/2311.16493) | [project](https://niujinshuchong.github.io/mip-splatting/) | [code](https://github.com/autonomousvision/mip-splatting)
 - 🔥**Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering**, Tao Lu et al, CVPR2024 (<font color="#de7802">Highlight</font>) | [arXiv](https://arxiv.org/abs/2312.00109) | [project](https://city-super.github.io/scaffold-gs/) | [code](https://github.com/city-super/Scaffold-GS)
 - **Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration**, Zhihao Liang et al, ECCV2024 | [arXiv](https://arxiv.org/abs/2403.11056) | [project](https://lzhnb.github.io/project-pages/analytic-splatting/) | [code](https://github.com/lzhnb/Analytic-Splatting)
+- 🔥**On the Error Analysis of 3D Gaussian Splatting and an Optimal Projection Strategy**, Letian Huang et al, ECCV2024 | [arXiv](https://arxiv.org/abs/2402.00752) | [project](https://letianhuang.github.io/op43dgs/) | [code](https://github.com/LetianHuang/op43dgs)
 
 ## Better Densification
 - **GaussianPro: 3D Gaussian Splatting with Progressive Propagation**, Kai Cheng, ICML2024 | [arXiv](https://arxiv.org/abs/2402.14650) | [project](https://kcheng1021.github.io/gaussianpro.github.io/) | [code](https://github.com/kcheng1021/GaussianPro)
